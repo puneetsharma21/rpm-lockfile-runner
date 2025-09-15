@@ -4,11 +4,16 @@ arches:
 stages:
 - image: registry.access.redhat.com/ubi9/python-311:1
   packages:
+  - epel-release
   - ninja-build
   - llvm-devel
-  - epel-release
   - cmake
   - llvm-toolset
   - ncurses-devel
   - rust
   - cargo
+  repos:
+  - name: epel
+    baseurl: https://dl.fedoraproject.org/pub/epel/9/Everything/$basearch/
+    gpgcheck: 0
+
