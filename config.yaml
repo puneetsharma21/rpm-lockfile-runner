@@ -6,6 +6,7 @@ stages:
   packages:
   - ninja-build
   - llvm-devel
+  - epel-release
   - cmake
   - llvm-toolset
   - ncurses-devel
