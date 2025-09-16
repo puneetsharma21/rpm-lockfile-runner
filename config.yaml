@@ -1,6 +1,6 @@
 arches:
-- x86_64
-- ppc64le
+  - x86_64
+  - ppc64le
 
 stages:
 - image: registry.access.redhat.com/ubi9/python-311:1
@@ -12,16 +12,5 @@ stages:
     - ncurses-devel
     - rust
     - cargo
-
-  # Only for ppc64le
-  repos:
-    - name: epel
-      baseurl: https://dl.fedoraproject.org/pub/epel/9/Everything/ppc64le/
-      gpgcheck: 0
-      arches:
-        - ppc64le
-
-  packages_per_arch:
-    ppc64le:
-      - epel-release
+    - epel-release
 
