@@ -59,6 +59,16 @@ for i in $indices; do
   # https://github.com/release-engineering/rhtap-ec-policy/blob/main/data/known_rpm_repositories.yml
   echo "> Sanitize repo file"
   python src/sanitize-ubi-repo.py $TEMP_UBI_REPO
+
+  echo "> Adding EPEL repo"
+  cat >> $TEMP_UBI_REPO <<'EOF'
+
+[epel]
+name=Extra Packages for Enterprise Linux 9 - $basearch
+baseurl=https://dl.fedoraproject.org/pub/epel/9/Everything/$basearch/
+enabled=1
+gpgcheck=0
+EOF
   
   # cat $TEMP_UBI_REPO
 
