@@ -12,5 +12,4 @@ stages:
     - ncurses-devel
     - rust
     - cargo
-    - epel-release
 
