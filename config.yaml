@@ -12,4 +12,5 @@ stages:
     - ncurses-devel
     - rust
     - cargo
-
+    - gcc-toolset-13
+    - libuuid-devel 
