@@ -9,14 +9,16 @@ stages:
     - llvm-devel
     - cmake
     - llvm-toolset
-    - ncurses-devel
     - rust
     - cargo
     - gcc-toolset-13
     - libuuid-devel 
-    - perl
-    - perl-libs
     - openblas-devel
     - libstdc++-static
     - libaio 
     - libtool 
+    - perl-4:5.32.1-481.1.el9_6
+    - perl-interpreter-4:5.32.1-481.1.el9_6
+    - perl-libs-4:5.32.1-481.1.el9_6
+    - ncurses-devel-6.2-10.20210508.el9_6.2
+    - ncurses-libs-6.2-10.20210508.el9_6.2
