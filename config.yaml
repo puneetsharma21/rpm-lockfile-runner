@@ -4,12 +4,7 @@ arches:
 
 stages:
 - image: registry.access.redhat.com/ubi9/python-311:1
-  pre_commands:
-    # Remove conflicting older packages for both architectures
-    - dnf remove -y perl perl-libs perl-interpreter ncurses-libs ncurses-devel || true
-
   packages:
-    # Development tools
     - ninja-build
     - llvm-devel
     - cmake
@@ -22,11 +17,5 @@ stages:
     - libstdc++-static
     - libaio
     - libtool
-
-    # Pinned packages to avoid dependency conflicts
-    - perl-4:5.32.1-481.1.el9_6
-    - perl-interpreter-4:5.32.1-481.1.el9_6
-    - perl-libs-4:5.32.1-481.1.el9_6
-    - ncurses-devel-6.2-10.20210508.el9_6.2
-    - ncurses-libs-6.2-10.20210508.el9_6.2
-
+    - ncurses-devel-6.2-10.20210508.el9
+    - perl-4:5.32.1-481.el9
