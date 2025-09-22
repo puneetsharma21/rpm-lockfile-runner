@@ -14,9 +14,12 @@ stages:
     - cargo
     - gcc-toolset-13
     - libuuid-devel 
-    - perl 
+    - perl
+    - perl-libs
+    - perl-interpreter
     - openblas-devel
     - libstdc++-static
     - libaio 
     - libtool 
     - ncurses-devel
+    - ncurses-libs
