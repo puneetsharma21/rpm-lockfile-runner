@@ -17,5 +17,5 @@ stages:
     - libstdc++-static
     - libaio
     - libtool
-    - ncurses-devel-6.2-10.20210508.el9
-    - perl-4:5.32.1-481.el9
+    - ncurses-devel
+    - perl
