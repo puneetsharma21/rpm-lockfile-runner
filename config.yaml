@@ -3,7 +3,7 @@ arches:
   - ppc64le
 
 stages:
-- image: registry.access.redhat.com/ubi9/python-311:1
+- image: registry.access.redhat.com/ubi9/python-311@sha256:9d3578927c6168e364f963b642fb15d5c4b1224a31c11da2ae970f05708724ae
   packages:
     - ninja-build
     - llvm-devel
@@ -19,3 +19,12 @@ stages:
     - libtool
     - ncurses-devel
     - perl
+    - mesa-libGL
+    - skopeo
+    - libxcrypt-compat
+    - git
+    - make
+    - wget
+    - unzip
+    - unixODBC-devel
+
