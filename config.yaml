@@ -27,4 +27,4 @@ stages:
     - wget
     - unzip
     - unixODBC-devel
-
+    - lz4-devel
