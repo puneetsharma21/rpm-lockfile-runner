@@ -28,3 +28,4 @@ stages:
     - unzip
     - unixODBC-devel
     - lz4-devel
+    - libtool
