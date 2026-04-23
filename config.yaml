@@ -5,23 +5,13 @@ arches:
 stages:
 - image: registry.access.redhat.com/ubi9/python-312-minimal:1
   packages:
-    - ninja-build
-    - llvm-devel
     - cmake
-    - llvm-toolset
     - rust
     - cargo
-    - gcc-toolset-13
-    - libuuid-devel
     - openblas-devel
     - libstdc++-static
-    - libaio
-    - libtool
     - ncurses-devel
     - perl
-    - mesa-libGL
-    - skopeo
-    - libxcrypt-compat
     - git
     - make
     - wget
@@ -31,3 +21,6 @@ stages:
     - libtool
     - libicu 
     - libpq
+    - gcc
+    - python3.12-devel
+    - postgresql-devel
