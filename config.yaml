@@ -1,6 +1,7 @@
 arches:
   - x86_64
   - ppc64le
+  - aarch64
 
 stages:
 - image: registry.access.redhat.com/ubi9/python-312-minimal:1
