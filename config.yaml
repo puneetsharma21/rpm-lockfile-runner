@@ -14,11 +14,8 @@ stages:
     - gcc-c++
     - make
     - numactl
-    - numactl-devel
     - openblas
     - openblas-devel
-    - openmpi
-    - openmpi-devel
     - libsndfile
     - libtiff
     - libjpeg-turbo
@@ -32,3 +29,4 @@ stages:
     - lcms2
     - libicu
     - openssl
+    - flexiblas-openblas-openmp
