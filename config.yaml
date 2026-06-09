@@ -29,3 +29,4 @@ stages:
     - lcms2
     - libicu
     - openssl
+    - zeromq-devel
