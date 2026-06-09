@@ -29,5 +29,4 @@ stages:
     - lcms2
     - libicu
     - openssl
-    - openmpi
-    - openmpi-devel
+    - zeromq-devel
