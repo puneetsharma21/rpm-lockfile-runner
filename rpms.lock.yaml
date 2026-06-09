@@ -18,20 +18,6 @@ arches:
         name: flac-libs
         evr: 1.3.3-10.el9_2.1
         sourcerpm: flac-1.3.3-10.el9_2.1.src.rpm
-      - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/f/flexiblas-3.0.4-9.el9.ppc64le.rpm
-        repoid: ubi-9-for-ppc64le-appstream-rpms
-        size: 36778
-        checksum: sha256:182d454dc20310695ba56be3715f439423451612fab4ddcc25f04ca0513163a6
-        name: flexiblas
-        evr: 3.0.4-9.el9
-        sourcerpm: flexiblas-3.0.4-9.el9.src.rpm
-      - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/f/flexiblas-openblas-openmp-3.0.4-9.el9.ppc64le.rpm
-        repoid: ubi-9-for-ppc64le-appstream-rpms
-        size: 21202
-        checksum: sha256:e694351e4f70114c6d6357b9bd6082adbc3f820640a17b10de8689022ba328da
-        name: flexiblas-openblas-openmp
-        evr: 3.0.4-9.el9
-        sourcerpm: flexiblas-3.0.4-9.el9.src.rpm
       - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/f/fribidi-1.0.10-6.el9.2.ppc64le.rpm
         repoid: ubi-9-for-ppc64le-appstream-rpms
         size: 94422
@@ -690,12 +676,6 @@ arches:
         checksum: sha256:c9a340cb3e679da5f281425dcf1e785a2e882e733631638b45e76d3aa1f2e68f
         name: flac
         evr: 1.3.3-10.el9_2.1
-      - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/f/flexiblas-3.0.4-9.el9.src.rpm
-        repoid: ubi-9-for-ppc64le-appstream-source-rpms
-        size: 9226399
-        checksum: sha256:04df0f470179185cfe3e7ddef971ab4b6bff0095ed1253408f25cc92f891c0f0
-        name: flexiblas
-        evr: 3.0.4-9.el9
       - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/f/fribidi-1.0.10-6.el9.2.src.rpm
         repoid: ubi-9-for-ppc64le-appstream-source-rpms
         size: 1177189
