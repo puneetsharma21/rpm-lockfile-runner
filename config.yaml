@@ -30,3 +30,5 @@ stages:
     - libicu
     - openssl
     - flexiblas-openblas-openmp
+    - openmpi
+    - openmpi-devel
