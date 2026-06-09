@@ -2,7 +2,7 @@ arches:
   - ppc64le
 
 stages:
-- image: registry.access.redhat.com/ubi9/ubi-minimal:9.6-1754584681
+- image: registry.access.redhat.com/ubi9/ubi:9.6
   packages:
     - python3.12
     - python3.12-pip
