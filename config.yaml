@@ -1,27 +1,34 @@
 arches:
-  - x86_64
   - ppc64le
-  - aarch64
 
 stages:
-- image: registry.access.redhat.com/ubi9/python-312-minimal:1
+- image: registry.access.redhat.com/ubi9/ubi-minimal:9.6-1754584681
   packages:
-    - cmake
-    - rust
-    - cargo
-    - openblas-devel
-    - libstdc++-static
-    - ncurses-devel
-    - perl
-    - git
-    - make
-    - wget
-    - unzip
-    - unixODBC-devel
-    - lz4-devel
-    - libtool
-    - libicu 
-    - libpq
-    - gcc
+    - python3.12
+    - python3.12-pip
     - python3.12-devel
-    - postgresql-devel
+    - util-linux
+    - tar
+    - findutils
+    - gcc
+    - gcc-c++
+    - make
+    - numactl
+    - numactl-devel
+    - openblas
+    - openblas-devel
+    - openmpi
+    - openmpi-devel
+    - libsndfile
+    - libtiff
+    - libjpeg-turbo
+    - openjpeg2
+    - libpng
+    - zlib
+    - libwebp
+    - freetype
+    - harfbuzz
+    - fribidi
+    - lcms2
+    - libicu
+    - openssl
