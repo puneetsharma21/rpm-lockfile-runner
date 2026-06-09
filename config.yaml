@@ -29,6 +29,5 @@ stages:
     - lcms2
     - libicu
     - openssl
-    - flexiblas-openblas-openmp
     - openmpi
     - openmpi-devel
